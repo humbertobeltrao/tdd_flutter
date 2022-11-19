@@ -49,7 +49,7 @@ void main() {
     expect(find.byKey(Key('icon_tdd')), findsOneWidget);
   });
 
-  testWidgets('textfield found', (WidgetTester tester) async {
+  /* testWidgets('textfield found', (WidgetTester tester) async {
     final testWidget = MaterialApp(
       home: HomePage(),
     );
@@ -62,5 +62,5 @@ void main() {
     await tester.tap(button);
     await tester.pump();
     expect(find.text('Não é primo'), findsOneWidget);
-  });
+  });*/
 }
