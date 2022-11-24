@@ -7,6 +7,21 @@ import 'package:flutter/material.dart';
  * implementar a função do número primo - OK
  */
 
+void main() {
+  runApp(const MyWidget());
+}
+
+class MyWidget extends StatelessWidget {
+  const MyWidget({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: HomePage(),
+    );
+  }
+}
+
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
